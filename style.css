@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     /* font-family: 'Big Shoulders Display';
     font-family: 'Lexend Deca', sans-serif; */
 }
 body{
+    background-color:rgb(242, 242, 242); 
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 .box-container{
     width: 100%;
@@ -46,12 +47,12 @@ h1{
     text-transform: uppercase;
     font-family: 'Lexend Deca', sans-serif;
     margin: 20px 0;
-    font-weight: 400;
+    font-weight: bolder;
 }
 p{
     color: hsla(0,0%,100%,0.75);
     font-size: 15px;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display", sans-serif;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -85,4 +86,8 @@ p{
     font-size: 15px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+}
+img{
+    padding-left: 30px;
+    padding-top: 30px;
 }
