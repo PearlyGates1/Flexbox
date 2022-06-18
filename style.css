@@ -81,6 +81,7 @@ p{
     background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
+    transition: 0.4s;
 }
 .txt{
     font-size: 15px;
